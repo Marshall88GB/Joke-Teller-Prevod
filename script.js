@@ -55,7 +55,7 @@ function Proba (joke){
 let toLang = 'bs';
 let text = joke;
 
-const API_KEY = ["AIzaSyCNAHxh1A9qTQP6nwwHXrOY2E3oIgewzLE"];
+const API_KEY = ["Enter Your Api Key"];
 
 let url = `https://translation.googleapis.com/language/translate/v2?key=${API_KEY}`;
 url += '&q=' + encodeURI(text);
